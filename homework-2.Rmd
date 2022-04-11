@@ -218,6 +218,8 @@ where the underlying model $Y=f(X)+\epsilon$ satisfies the following:
 
 Which term(s) in the bias-variance tradeoff above represent the reproducible error? Which term(s) represent the irreducible error?
 
+In the bias-variance tradeoff above, the var and bias terms $Var(\hat{f}(x_0))$ and $[Bias(\hat{f}(x_0))]^2$ are the reproducible error terms, while the $Var(\epsilon)$ term represents the irreducible error.
+
 #### Question 9
 
 Using the bias-variance tradeoff above, demonstrate that the expected test error is always at least as large as the irreducible error.
@@ -230,3 +232,6 @@ Hints:
 
 - use the definition of $Bias(\hat{f}(x_0))=E[\hat{f}(x_0)]-f(x_0)$;
 - reorganize terms in the expected test error by adding and subtracting $E[\hat{f}(x_0)]$
+
+
+![local_image](IMG_6550.jpeg)
